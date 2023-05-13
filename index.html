@@ -5,8 +5,8 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width,initial-scale=1" />
     <link rel="shortcut icon" href="https://c.s-microsoft.com/favicon.ico?v2" />
-    <link rel="stylesheet" href="/converter.css">
-    <link rel="manifest" href="/manifest.json">
+    <link rel="stylesheet" href="/Starmada-Ship-Builder/converter.css">
+    <link rel="manifest" href="/Starmada-Ship-Builder/manifest.json">
     <title>Temperature converter</title>
 </head>
 
@@ -28,10 +28,10 @@
         </select>
         <output name="output-temp" id="output-temp" for="input-temp input-unit output-unit">68 F</output>
     </form>
-    <script src="/converter.js"></script>
+    <script src="/Starmada-Ship-Builder/converter.js"></script>
     <script>
         if ('serviceWorker' in navigator) {
-            navigator.serviceWorker.register('/sw.js', { scope: '/' });
+            navigator.serviceWorker.register('/Starmada-Ship-Builder/sw.js', { scope: '/' });
         }
     </script>
 </body>
